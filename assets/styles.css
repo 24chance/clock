@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     flex-direction: column;
     overflow-x: hidden;
 }
@@ -169,7 +169,7 @@ footer{
     font-family: 'Courier New', Courier, monospace;
     background: #424141;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     padding: 10px;
     text-align: center;
