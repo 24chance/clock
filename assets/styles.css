@@ -1,0 +1,184 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background: #6e6e6e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.clock{
+    width: 300px;
+    height: 300px;
+    background: white;
+    border-radius: 50%;
+    border: 2px solid #000;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.point{
+    width: 20px;
+    height: 20px;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inner{
+    width: 280px;
+    height: 280px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+}
+
+.clock div{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+}
+
+.one{
+    top: 20px;
+    left: 210px;
+}
+
+.two{
+    top: 70px;
+    left: 255px; 
+}
+
+.three{
+    top: 130px;
+    left: 270px;
+}
+
+.four{
+    top: 190px;
+    left: 255px;
+}
+
+.five{
+    top: 240px;
+    left: 210px;
+}
+
+.six{
+    top: 265px;
+    left: 135px;
+}
+
+.seven{
+    top: 240px;
+    left: 60px;
+}
+
+.eight{
+    top: 190px;
+    left: 15px;
+}
+
+.nine{
+    top: 130px;
+}
+
+.ten{
+    top: 70px;
+    left: 15px;
+}
+
+.eleven{
+    top: 20px;
+    left: 60px;
+}
+
+.twelve{
+    left: 130px;
+}
+
+.inshinge-container {
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    left: 27px;
+    top: 27px;
+    border-radius: 50%;
+}
+
+.urushinge-seconds{
+    width: 1px;
+    height: 120px;
+    background: black;
+    position: absolute;
+    top: -1%;
+    left: 112px;
+    border-radius: 10px;
+}
+
+.urushinge-minutes{
+    width: 3px;
+    height: 100px;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    top: 4%;
+    left: 113px;
+    border-radius: 10px;
+}
+
+
+.urushinge-hours{
+    width: 5px;
+    height: 90px;
+    background: black;
+    position: absolute;
+    top: 12%;
+    left: 113px;
+    border-radius: 10px;
+}
+
+
+
+/* ----------------------------------------- */
+
+.digital-clock{
+    color: white;
+    display: flex;
+    font-size: 40px;
+    margin: 20px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer{
+    color: white;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    background: #424141;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+}
+
+footer a{
+    color: rgb(153, 141, 141);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+}
